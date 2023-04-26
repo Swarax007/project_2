@@ -1,1 +1,1 @@
-# project_2
+# github-actions-example

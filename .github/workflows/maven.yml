@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: swarax007/dockerproject_1
+        image: ${{ secrets.DOCKER_USERNAME }}/dockerproject_1
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile

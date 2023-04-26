@@ -1,4 +1,4 @@
 jFROM openjdk:8
 EXPOSE 8080
-ADD target/dockerproject_1.jar dockerproject_1.jar
-ENTRYPOINT ["java","-jar","/dockerproject_1.jar"]
+ADD target/.jarspringboot-images-new.jar springboot-images-new.jar
+ENTRYPOINT ["java","-jar","/springboot-images-new.jar"]
